@@ -1,0 +1,30 @@
+{
+    "name": "OSOYOO_BlackIR",
+    "version": "2.0.3",
+    "description": "Extension for OSOYOO IR Receive Module",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "BitIR.ts",
+        "Bit_IR.ts",
+        "enums.d.ts",
+        "Bit_IR.cpp",
+        "ReceiverIR.cpp",
+        "ReceiverIR.h",
+        "RemoteIR.h",
+        "_locales/zh-cn/Bit_IR-strings.json",
+        "_locales/zh-tw/Bit_IR-strings.json",
+        "shims.d.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
