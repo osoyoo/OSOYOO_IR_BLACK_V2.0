@@ -15,7 +15,7 @@ namespace BitIR {
       //% blockId="NUM2" block="NUM2"
 	  NUM2 = 0x01,
       //% blockId="NUM3" block="NUM3"
-	  NUM1 = 0x02,
+	  NUM3 = 0x02,
       //% blockId="NUM4" block="NUM4"
 	  NUM4 = 0x03,
       //% blockId="NUM6" block="NUM6"
