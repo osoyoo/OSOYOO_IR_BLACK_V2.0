@@ -10,7 +10,7 @@ namespace BitIR {
     
     export enum enIRButton {
 
-         //% blockId="NUM1" block="NUM1"
+      //% blockId="NUM1" block="NUM1"
       NUM1 = 0x00,
       //% blockId="NUM2" block="NUM2"
 	  NUM2 = 0x01,
@@ -18,33 +18,30 @@ namespace BitIR {
 	  NUM3 = 0x02,
       //% blockId="NUM4" block="NUM4"
 	  NUM4 = 0x03,
+	  //% blockId="NUM5" block="NUM5"
+	  NUM5 = 0x06,
       //% blockId="NUM6" block="NUM6"
 	  NUM6 = 0x04,
-      //% blockId="Hash" block="Hash"
-	  Hash = 0x05,
-      //% blockId="NUM5" block="NUM5"
-	  NUM5 = 0x06,
-      //% blockId="NUM0" block="NUM0"
-	  NUM0 = 0x07,
-      //% blockId="NUM7" block="NUM7"
+	  //% blockId="NUM7" block="NUM7"
 	  NUM7 = 0x08,
       //% blockId="NUM8" block="NUM8"
 	  NUM8 = 0x09,
       //% blockId="NUM9" block="NUM9"
 	  NUM9 = 0x0a,
+	  //% blockId="NUM0" block="NUM0"
+	  NUM0 = 0x07,
+      //% blockId="Hash" block="Hash"
+	  Hash = 0x05,
       //% blockId="STAR" block="STAR"
-	  STAR = 0x0b,
-   
+	  STAR = 0x0b,   
       //% blockId="UP" block="UP"
 	  UP = 0x0d,
-  
       //% blockId="LEFT" block="LEFT"
 	  LEFT = 0x0f,
       //% blockId="OK" block="OK"
 	  OK = 0x10,
       //% blockId="RIGHT" block="RIGHT"
 	  RIGHT = 0x11,
-
       //% blockId="DOWN" block="DOWN"
 	  DOWN = 0x13,
 
